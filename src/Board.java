@@ -8,10 +8,10 @@ public class Board {
     Map<Point, Peg> pegs;
     Board fromBoard;
 
-    public final static int PUZZLE_SIZE = 5;
+    public final static int PUZZLE_SIZE = 6;
     public final static int NUM_ROWS = PUZZLE_SIZE;
     public final static int NUM_COLS = PUZZLE_SIZE;
-    public final static int MAX_WIDTH = 3;
+    public final static int MAX_WIDTH = 4;
     private static Set<Point> cornersCut;
 
     Board() {
